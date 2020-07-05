@@ -1,8 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+
+margin: 0px;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
+    padding: 15px;
 
 }
 .name-high{
@@ -11,10 +14,30 @@ h1{
 .first{
     width: 40%;
     float: left;
-    margin-left: 5px;
-    padding-left: 2px;
+    margin-left: 60px;
+    padding-left: 30px;
 }
 .first img{
     width: 100%;
+
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 400px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg lightsalmon tomato );
+    background-color: darkorange;
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
     
+
 }
